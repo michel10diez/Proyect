@@ -1,0 +1,77 @@
+body {
+  /*min-height: 2000px;*/
+  padding-top: 70px;
+}
+
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 100px; 
+  text-align: center;
+}
+
+
+
+.featurette-image{
+  -webkit-transform: rotate(90deg); 
+  width: 500px;
+  height: 500px;
+}
+
+.contenedor-seccion {
+  margin: 5em;
+}
+
+/*-----------------Estilos de cursos-----------------*/
+.nosotros_columna {
+  position: relative;
+  margin-bottom: 30px;
+}
+.nosotros_descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.nosotros_titulo {
+  font-size: 4em;
+  margin: 5px 0;
+}
+.nosotros_text{
+  font-size:2.5em;
+}
+.nosotros_img {
+  margin: auto;
+  width: 90%;
+  height: 80%;
+}
+
+
+/*----------Responsive--------------*/
+
+
+@media(max-width:480px){
+  .nosotros_titulo {
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+  .nosotros_text{
+    font-size:0.5em;
+  }
+  
+}
+
+@media(max-width:768px){
+  .nosotros_titulo {
+    font-size: 2em;
+    margin: 5px 0;
+  }
+  .nosotros_text{
+    font-size:1em;
+  }
+}
